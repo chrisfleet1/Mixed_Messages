@@ -5,8 +5,8 @@ function generateRandNumber (num) {
 
 // Define the objects
 const collectiveChoice = {
-    starter: ["Calamari","Soup of the Day", "Prawn Cocktail", "Scallops"],
-    main: ["Steak and Chips", "Southern Fried Chicken Burger and Chips", "Sesame Chicken and Skinny Fries", "Deep Fried Pizza with Onion Rings and Wedges"],
+    starter: ["Calamari","Soup of the Day", "Prawn Cocktail", "Scallops","Garlic Mushrooms"],
+    main: ["Steak & Chips", "Southern Fried Chicken Burger & Chips", "Sesame Chicken & Skinny Fries", "Deep Fried Pizza with Onion Rings & Wedges","Big Daddy Burger & Sweet Potato Fries"],
     dessert: ["Profiteroles", "Mint Aero Sundae", "Eton Mess", "Chocolate Brownie"],
     drink: ["Glass of White Wine", "Glass of Red Wine", "Pint of Peroni", "Pint of Pepsi Max"],
 }
@@ -40,6 +40,8 @@ switch(prop) {
 }
 
 function formatChoice(choices) {
+    //Add some ASCII images at later date
+    //Add other images like emojis
     const formatted = personalChoice.join("\n")
     console.log(formatted)
 }
